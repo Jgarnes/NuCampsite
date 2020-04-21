@@ -115,11 +115,12 @@
           <div class="col col-sm-6 mx-auto">
             <div class="card">
               <h3 class="card-header bg-info text-white">Reserve a Campsite</h3>
+              
               <div clas="card-body">
                 
                 <form id="reserveForm">
                   <div class="row form-group">
-                    <label for="numCampers" class="col col-sm-6">Number of Campers</label>
+                    <label for="numCampers" class="col col-sm-6 col-form-label">Number of Campers</label>
                       <div class="col">
                         <select name="numCampers" id="numCampers" class="form-control">
                           <option selected>Select...</option>
@@ -133,14 +134,14 @@
                       </div>
                     </div>
                     
-                    <div class="row">
-                      <label for="date" class="col col-sm-6">Date</label>
+                    <div class="row form-group">
+                      <label for="date" class="col col-sm-6 col-form-label">Date</label>
                       <div class="col col-sm-6">
                         <input class="form-control" id="date" name="date" type="date" placeholder="mm/dd/yyyy">
                       </div>
                     </div>
 
-                    <div class="row">
+                    <div class="row form-group">
                       <div class="col">
                         <button type="submit" class="btn btn-primary">Search</button>
                       </div>
@@ -150,8 +151,6 @@
               </div>
             </div>
           </div>
-        </div>
-          
         </div> 
 
     <footer class="site-footer">
